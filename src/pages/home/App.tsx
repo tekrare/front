@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import SimpleStorageContract from '../../contracts/SimpleStorage.json';
-import getWeb3 from './getWeb3';
+import getWeb3 from '../../services/getWeb3';
+import { Contract } from 'web3-eth-contract';
 
 import './App.css';
-import { Contract } from 'web3-eth-contract';
 
 interface State {
   storageValue: number;
