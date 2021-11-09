@@ -1,17 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Header from '../../components/Header';
 
-export default class Home extends Component {
-  state = {
-    isLoggedIn: false,
-  }
+interface Props {
+  isLoggedIn: boolean;
+}
 
-  render() {
-    return (
-      <div>
-        <Header isLoggedIn={this.state.isLoggedIn} />
-        <h1>Welcome on the Home Page</h1>
-      </div>
-    )
-  }
+export default function Home(props: Props) {
+  return (
+    <div>
+      <Header isLoggedIn={props.isLoggedIn} />
+    </div>
+  );
 }

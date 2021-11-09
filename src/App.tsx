@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <div className="App">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home isLoggedIn={false} />} />
         </Routes>
       </div>
     );
