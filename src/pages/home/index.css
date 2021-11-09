@@ -1,0 +1,29 @@
+.home-content {
+  margin-left: 200px;
+  margin-right: 200px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10%;
+}
+
+.home-content-title {
+  font-size: 48px;
+  font-weight: 700;
+  width: 480px;
+  text-align: left;
+}
+
+.home-content-nft {
+  background: -webkit-linear-gradient(1turn, #43F0FE, #897DFE);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.home-content-svg {
+  margin-left: 15%;
+}
+
+.home-content-button {
+  margin-top: 50px;
+  width: 160px;
+}
