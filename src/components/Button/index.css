@@ -1,0 +1,12 @@
+.button {
+  height: 40px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #43F0FE 0%, #897DFE 100%);
+  box-shadow: 6px 6px 4px rgba(67, 240, 254, 0.17);
+  font-size: 18px;
+  color: white;
+  font-weight: 800;
+  font-family: 'Nunito', sans-serif;
+  border: 0;
+  cursor: pointer;
+}
