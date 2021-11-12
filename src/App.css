@@ -1,22 +1,41 @@
-.App {
-  text-align: center;
+.background-rectangle {
+  position: fixed;
+  width: 396px;
+  height: 508px;
+  z-index: -1;
+
+  border: 2px solid #252525;
+  box-sizing: border-box;
+  border-radius: 32px;
+  transform: rotate(25deg);
 }
 
-.App-logo {
-  height: 40vmin;
+.background-rectangle-1 {
+  left: -100px;
+  top: 210px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.background-rectangle-2 {
+  left: -85px;
+  top: 240px;
 }
 
-.App-link {
-  color: #09d3ac;
+.background-rectangle-3 {
+  left: -70px;
+  top: 270px;
+}
+
+.background-rectangle-4 {
+  right: 0px;
+  top: 500px;
+}
+
+.background-rectangle-5 {
+  right: -15px;
+  top: 530px;
+}
+
+.background-rectangle-6 {
+  right: -30px;
+  top: 560px;
 }
