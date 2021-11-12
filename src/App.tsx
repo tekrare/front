@@ -7,7 +7,7 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="container">
         <div className="background-rectangle background-rectangle-1" />
         <div className="background-rectangle background-rectangle-2" />
         <div className="background-rectangle background-rectangle-3" />

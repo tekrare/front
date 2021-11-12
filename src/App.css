@@ -1,5 +1,11 @@
+.container {
+  overflow: hidden;
+  position: relative;
+  min-height: 100vh;
+}
+
 .background-rectangle {
-  position: fixed;
+  position: absolute;
   width: 396px;
   height: 508px;
   z-index: -1;
