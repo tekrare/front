@@ -26,6 +26,10 @@ export default function Home(props: Props) {
           <ReactSVG src={process.env.PUBLIC_URL + '/assets/finance.svg'} />
         </div>
       </div>
+      <div className="home-page-cards-container">
+        <p className="home-page-cards-title">Earn precious cards</p>
+        <p className="home-page-cards-description">Choose from 3 rarity</p>
+      </div>
     </div>
   );
 }

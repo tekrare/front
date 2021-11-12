@@ -46,3 +46,19 @@
   top: 50px;
   background: radial-gradient(36.24% 36.24% at 50% 50%, rgba(137, 125, 254, 0.25) 0%, rgba(137, 125, 254, 0) 100%);
 }
+
+.home-page-cards-container {
+  margin-top: 10%;
+}
+
+.home-page-cards-title {
+  font-size: 48px;
+  text-align: center;
+}
+
+.home-page-cards-description {
+  margin-top: 25px;
+  font-size: 24px;
+  text-align: center;
+  color: #777777;
+}
