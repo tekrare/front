@@ -20,10 +20,29 @@
 }
 
 .home-content-svg {
+  position: relative;
   margin-left: 15%;
 }
 
 .home-content-button {
   margin-top: 50px;
   width: 160px;
+}
+
+.home-content-circular-shadow-1 {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  left: -150px;
+  top: -150px;
+  background: radial-gradient(36.24% 36.24% at 50% 50%, rgba(67, 240, 254, 0.25) 0%, rgba(67, 240, 254, 0) 100%);
+}
+
+.home-content-circular-shadow-2 {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  left: 50px;
+  top: 50px;
+  background: radial-gradient(36.24% 36.24% at 50% 50%, rgba(137, 125, 254, 0.25) 0%, rgba(137, 125, 254, 0) 100%);
 }

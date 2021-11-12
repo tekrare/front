@@ -20,7 +20,11 @@ export default function Home(props: Props) {
           <p>Take part in the first Epitech's <span className="home-content-nft">NFT</span> Platform</p>
           <Button onClick={() => navigate('/login')} className="home-content-button" title="Try it" />
         </div>
-        <ReactSVG className="home-content-svg" src={process.env.PUBLIC_URL + '/assets/finance.svg'} />
+        <div className="home-content-svg">
+          <div className="home-content-circular-shadow-1" />
+          <div className="home-content-circular-shadow-2" />
+          <ReactSVG src={process.env.PUBLIC_URL + '/assets/finance.svg'} />
+        </div>
       </div>
     </div>
   );
