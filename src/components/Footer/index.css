@@ -1,0 +1,22 @@
+.footer {
+  margin-top: auto;
+  margin-left: 100px;
+  margin-right: 100px;
+  height: 80px;
+
+  color: #ADADAD;
+  font-size: 14px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer-name {
+  margin-right: auto;
+}
+
+.footer-description {
+  margin-left: auto;
+  text-align: end;
+}
