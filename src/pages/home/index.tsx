@@ -9,7 +9,7 @@ import './index.css';
 export default function Home() {
   const navigate: NavigateFunction = useNavigate();
   return (
-    <div>
+    <>
       <div className="home-content">
         <div className="home-content-title">
           <p>Take part in the first Epitech's <span className="home-content-nft">NFT</span> Platform</p>
@@ -30,6 +30,6 @@ export default function Home() {
           <HomePageCard title="Unique" description="1 per collection" rarity="unique" />
         </div>
       </div>
-    </div>
+    </>
   );
 }
