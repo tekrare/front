@@ -2,6 +2,7 @@ import React from 'react';
 import { useNavigate, NavigateFunction } from 'react-router-dom';
 import { ReactSVG } from 'react-svg'
 import Button from '../../components/Button';
+import HomePageCard from './HomePageCard';
 
 import './index.css';
 
@@ -24,36 +25,9 @@ export default function Home() {
         <p className="home-page-cards-title">Earn precious cards</p>
         <p className="home-page-cards-description">Choose from 3 rarity</p>
         <div className="home-page-cards">
-          <div className="home-page-card-container">
-            <img src={process.env.PUBLIC_URL + '/assets/showcase-rare-card.png'} className="home-page-card" alt="" />
-            <div className="home-page-card-text">
-              <div className="home-page-card-text-title">
-                <p>Rare</p>
-                <div className="home-page-card-text-title-underline home-page-card-text-title-rare-underline" />
-              </div>
-              <p className="home-page-card-text-description">10 per collection</p>
-            </div>
-          </div>
-          <div className="home-page-card-container">
-            <img src={process.env.PUBLIC_URL + '/assets/showcase-super-rare-card.png'} className="home-page-card" alt="" />
-            <div className="home-page-card-text">
-              <div className="home-page-card-text-title">
-                <p>Super Rare</p>
-                <div className="home-page-card-text-title-underline home-page-card-text-title-super-rare-underline" />
-              </div>
-              <p className="home-page-card-text-description">3 per collection</p>
-            </div>
-          </div>
-          <div className="home-page-card-container">
-            <img src={process.env.PUBLIC_URL + '/assets/showcase-unique-card.png'} className="home-page-card" alt="" />
-            <div className="home-page-card-text">
-              <div className="home-page-card-text-title">
-                <p>Unique</p>
-                <div className="home-page-card-text-title-underline home-page-card-text-title-unique-underline" />
-              </div>
-              <p className="home-page-card-text-description">1 per collection</p>
-            </div>
-          </div>
+          <HomePageCard title="Rare" description="10 per collection" rarity="rare" />
+          <HomePageCard title="Super Rare" description="3 per collection" rarity="super-rare" />
+          <HomePageCard title="Unique" description="1 per collection" rarity="unique" />
         </div>
       </div>
     </div>
