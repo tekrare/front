@@ -31,6 +31,7 @@ export default function Home(props: Props) {
         <p className="home-page-cards-description">Choose from 3 rarity</p>
         <div className="home-page-cards">
           <div className="home-page-card-container">
+            <img src={process.env.PUBLIC_URL + '/assets/showcase-rare-card.png'} className="home-page-card" alt="" />
             <div className="home-page-card-text">
               <div className="home-page-card-text-title">
                 <p>Rare</p>
@@ -40,6 +41,7 @@ export default function Home(props: Props) {
             </div>
           </div>
           <div className="home-page-card-container">
+            <img src={process.env.PUBLIC_URL + '/assets/showcase-super-rare-card.png'} className="home-page-card" alt="" />
             <div className="home-page-card-text">
               <div className="home-page-card-text-title">
                 <p>Super Rare</p>
@@ -49,6 +51,7 @@ export default function Home(props: Props) {
             </div>
           </div>
           <div className="home-page-card-container">
+            <img src={process.env.PUBLIC_URL + '/assets/showcase-unique-card.png'} className="home-page-card" alt="" />
             <div className="home-page-card-text">
               <div className="home-page-card-text-title">
                 <p>Unique</p>
