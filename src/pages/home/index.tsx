@@ -2,19 +2,13 @@ import React from 'react';
 import { useNavigate, NavigateFunction } from 'react-router-dom';
 import { ReactSVG } from 'react-svg'
 import Button from '../../components/Button';
-import Header from '../../components/Header';
 
 import './index.css';
 
-interface Props {
-  isLoggedIn: boolean;
-}
-
-export default function Home(props: Props) {
+export default function Home() {
   const navigate: NavigateFunction = useNavigate();
   return (
     <div>
-      <Header isLoggedIn={props.isLoggedIn} />
       <div className="home-content">
         <div className="home-content-title">
           <p>Take part in the first Epitech's <span className="home-content-nft">NFT</span> Platform</p>
